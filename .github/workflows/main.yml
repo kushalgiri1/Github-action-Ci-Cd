@@ -1,12 +1,14 @@
 name: Code 
 
 on:
-  push:
-   
- jobs:
+  push: 
+
+
+jobs:
     code-checkout:
      runs-on: ubuntu-latest
-     steps:
+     
+steps:
      — name: Clone the code
      uses: actions/checkout@v7
 
